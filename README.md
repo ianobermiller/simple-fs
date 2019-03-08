@@ -47,6 +47,7 @@ let blob = await fs.readFile('/myproject/test.txt')
 ## API
 
 ```javascript
+ls(<path>, <filters>={})
 mkdir(<path>)
 mkdirParents(<path>) // wraps mkdir -p
 rmdir(<path>)
